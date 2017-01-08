@@ -1,0 +1,21 @@
+body {
+  padding-top: 60px;
+}
+
+.error {
+  margin-top: 10px;
+  color: red;
+}
+
+.ng-dirty.ng-invalid.checkbox {
+  color: red;
+}
+
+.ng-dirty.ng-invalid,
+.ng-touched.ng-invalid {
+  border-color: red;
+}
+
+.ng-dirty.ng-valid {
+  border-color: green;
+}
